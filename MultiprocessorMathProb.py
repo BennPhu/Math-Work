@@ -22,7 +22,7 @@ def multiprocessor(nu, pc, de):
                 print("That is all, thank you for using my program")
                 print("Signing off, Benn.")           
             else:
-                print("Great, but there is not enough data entry to reach the limit of 120ms. Try again!\n" "Your current speed of preparing and copying data entry: " + str(pc)+"ms")
+                print("Great, but there is not enough data entry to reach the limit of 120ms. Continue!\n" "Your current speed of preparing and copying data entry: " + str(pc)+"ms")
                 multiprocessor(nu, pc ,de)
             
         #check for odd number
